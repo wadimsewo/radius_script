@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "catfan/medoo": "^1.6",
-        "slim/pdo": "^1.10"
+        "catfan/medoo": "^1.6"
     }
 }

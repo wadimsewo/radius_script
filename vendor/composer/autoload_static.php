@@ -7,10 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInit34132dc777a998dc2b0f55bc5212ff59
 {
     public static $prefixLengthsPsr4 = array (
-        'S' => 
-        array (
-            'Slim\\PDO\\' => 9,
-        ),
         'M' => 
         array (
             'Medoo\\' => 6,
@@ -18,10 +14,6 @@ class ComposerStaticInit34132dc777a998dc2b0f55bc5212ff59
     );
 
     public static $prefixDirsPsr4 = array (
-        'Slim\\PDO\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/slim/pdo/src/PDO',
-        ),
         'Medoo\\' => 
         array (
             0 => __DIR__ . '/..' . '/catfan/medoo/src',
