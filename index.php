@@ -3,7 +3,11 @@
 use App\NearestCities;
 
 require 'vendor/autoload.php';
-require 'app/NearestCities.php';
+
+$loader = new Nette\Loaders\RobotLoader;
+$loader->addDirectory(__DIR__ . '/app');
+$loader->setTempDirectory(__DIR__ . '/temp');
+$loader->register();
 
 ?>
 
@@ -28,13 +32,14 @@ require 'app/NearestCities.php';
 <?php
 
 if(isset($_GET['city']) && isset($_GET['country'])) {
+
     $city = $_GET['city'];
     $country = $_GET['country'];
     $distance = $_GET['distance'];
 
-    $nearestCities = new NearestCities($city, $country, $distance);
+    $nearestCities = new NearestCities();
     echo "<pre>";
-    var_dump($nearestCities->search());
+    var_dump($nearestCities->city($city)->country($country)->distance($distance)->search());
 }
 
 ?>

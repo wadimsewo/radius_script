@@ -9,6 +9,7 @@
         }
     ],
     "require": {
-        "catfan/medoo": "^1.6"
+        "catfan/medoo": "^1.6",
+        "nette/robot-loader": "^3.1"
     }
 }
