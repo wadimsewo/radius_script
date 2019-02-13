@@ -1,9 +1,9 @@
 <?php
 
-use App\App;
+use App\NearestCities;
 
 require 'vendor/autoload.php';
-require 'app/App.php';
+require 'app/NearestCities.php';
 
 ?>
 
@@ -32,9 +32,9 @@ if(isset($_GET['city']) && isset($_GET['country'])) {
     $country = $_GET['country'];
     $distance = $_GET['distance'];
 
-    $app = new App($city, $country, $distance);
+    $nearestCities = new NearestCities($city, $country, $distance);
     echo "<pre>";
-    var_dump($app->getResults());
+    var_dump($nearestCities->search());
 }
 
 ?>
