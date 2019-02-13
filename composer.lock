@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dd3d74fb5950cb59fc917ffcaee81bb1",
+    "packages": [
+        {
+            "name": "catfan/medoo",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/53a02b300d673f716cb06bf0e24fd774ec53939f",
+                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The lightest PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2018-12-08T20:24:23+00:00"
+        },
+        {
+            "name": "slim/pdo",
+            "version": "1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FaaPz/Slim-PDO.git",
+                "reference": "2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee",
+                "reference": "2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\PDO\\": "src/PDO/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian de Laender",
+                    "email": "fabian@faapz.nl",
+                    "homepage": "http://faapz.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PDO database library for Slim Framework",
+            "homepage": "https://github.com/FaaPz/Slim-PDO",
+            "keywords": [
+                "database",
+                "framework",
+                "pdo",
+                "slim"
+            ],
+            "time": "2017-08-15T10:42:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

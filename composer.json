@@ -1,0 +1,15 @@
+{
+    "name": "geo_search/wadim",
+    "description": "City Radius Search",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Wadim Sewostjanow",
+            "email": "info@eazycode.de"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^1.6",
+        "slim/pdo": "^1.10"
+    }
+}
